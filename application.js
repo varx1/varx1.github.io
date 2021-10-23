@@ -1,5 +1,5 @@
 function NavigationSwitch() {
-  var a = document.getElementByClassName("NavigationSecondary");
+  var a = document.getElementsByClassName("NavigationSecondary");
   
   if (a.style.display === "none") {
     a.style.display = "block";
