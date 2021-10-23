@@ -1,4 +1,4 @@
-function Navigation_Switch() {
+function NavigationSwitch() {
   var a = document.getElementByClassName("NavigationSecondary");
   
   if (a.style.display === "none") {
